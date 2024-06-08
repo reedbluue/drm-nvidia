@@ -19,6 +19,12 @@ kernel mode setting. It's particularly useful to new users of the Arch Linux sys
 For more information about Nvidia DRM kernel mode setting, visit
 the [Arch Linux Wiki](https://wiki.archlinux.org/title/NVIDIA#DRM_kernel_mode_setting).
 
+## One line install command
+
+```shell
+sudo git clone https://github.com/reedbluue/drm-nvidia /tmp/drm-nvidia && sudo /tmp/drm-nvidia/drm-nvidia.sh
+```
+
 ## Usage Tutorial
 
 ### Checking Nvidia DRM Status
