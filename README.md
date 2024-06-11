@@ -22,7 +22,7 @@ the [Arch Linux Wiki](https://wiki.archlinux.org/title/NVIDIA#DRM_kernel_mode_se
 ## One line install command
 
 ```shell
-sudo git clone https://github.com/reedbluue/drm-nvidia /tmp/drm-nvidia && sudo /tmp/drm-nvidia/drm-nvidia.sh
+if [ -d "/tmp/drm-nvidia" ]; then cd /tmp/drm-nvidia && sudo git pull; else sudo git clone https://github.com/reedbluue/drm-nvidia /tmp/drm-nvidia; fi && sudo /tmp/drm-nvidia/drm-nvidia.sh
 ```
 
 ## Usage Tutorial
